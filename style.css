@@ -3,11 +3,13 @@
     /* estado inicial */
         from {
             background: green;
+            border-radius: 0px;
         }
     
         /* estado finial */
         to {
            background: purple;
+           border-radius: 300px;
         }
 }
 
@@ -18,4 +20,5 @@
     background: green;
     animation-name: animacao-caixa;
     animation-duration: 6s;
+    animation-direction: center;
 }
