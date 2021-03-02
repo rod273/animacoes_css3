@@ -4,12 +4,16 @@
         from {
             background: green;
             border-radius: 0px;
+            top: 0;
+            left: 0;
         }
     
         /* estado finial */
         to {
            background: purple;
            border-radius: 300px;
+           top: 200px;
+           left: 400px;
         }
 }
 
@@ -17,8 +21,10 @@
 #caixa {
     width: 300px;
     height: 300px;
+    position: relative;
     background: green;
     animation-name: animacao-caixa;
-    animation-duration: 6s;
-    animation-direction: center;
+    animation-duration: 3s;
+    animation-iteration-count: 2 ;
+    animation-direction: alternate;
 }
